@@ -1,0 +1,39 @@
+.container {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+ul li {
+  display: flex;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.news-list .news-info {
+  margin-right: 10px;
+}
+
+.news-list .img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.news-list h3 {
+  margin: 0 0 10px;
+}
+
+.news-list p {
+  font-size: 12px;
+}

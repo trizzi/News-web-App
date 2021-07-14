@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  margin: 2rem;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.search::placeholder {
+  padding: 20px 10px;
+}
